@@ -11,4 +11,8 @@ class OtpCode extends Model
 
     protected $guarded = [];
 
+    public static function getOtpCode(){
+        return $this->otp;
+    }
+
 }
